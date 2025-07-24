@@ -12,14 +12,91 @@ After storing a we execute cout << "You entered: " << a << std::endl; and lastly
 
 Algorithm:
 
-Start the program. Display a welcome message: Output: Welcome to C++ Programming! Output: Hello World Prompt the user to enter an integer: -Output: Enter a number: -Input: User enters an integer value and it is stored in variable x -Output: You entered: x
+Step-wise Algorithm
 
-Calculator functionality: Prompt the user to input two numbers:
+Part 1: Print Hello World and Take User Input
 
-Output: Enter number 1: → Input stored in variable a Output: Enter number 2: → Input stored in variable b Perform operations: sum = a + b sub = a - b mul = a * b div = a / b
+1. Start the program.
 
-Display results:
 
-Output: Sum: sum Output: Subtraction: sub Output: Multiplication: mul Output: Division: div End the program. The program then prints each of the calculations in the format of "Sum:" followed by std::endl to print the result of the calculation on a new line. We conclude with return 0; which indicates successful execution of our program.
+2. Display a welcome message.
+→ Output: Welcome to C++ Programming!
+
+
+3. Print "Hello World".
+→ Output: Hello World
+
+
+4. Declare an integer variable x.
+
+
+5. Prompt the user to enter a number.
+→ Output: Enter a number:
+
+
+6. Read user input into variable x.
+→ Input: User enters a number
+
+
+7. Display the entered number.
+→ Output: You entered: x
+
+
+8. Print a thank you message.
+→ Output: Thank you for your input.
+
+
+
+
+---
+
+Part 2: Calculator Functionality
+
+9. Declare two integer variables a and b.
+
+
+10. Prompt the user to enter the first number.
+→ Output: Enter number 1:
+
+
+11. Read user input into variable a.
+→ Input: User enters a number
+
+
+12. Prompt the user to enter the second number.
+→ Output: Enter number 2:
+
+
+13. Read user input into variable b.
+→ Input: User enters a number
+
+
+14. Perform addition and store result in sum.
+→ sum = a + b
+
+
+15. Perform subtraction and store result in sub.
+→ sub = a - b
+
+
+16. Perform multiplication and store result in mul.
+→ mul = a * b
+
+
+17. Perform division and store result in div.
+→ div = a / b (ensure b != 0)
+
+
+18. Display the results:
+→ Output: Sum: sum
+→ Output: Subtraction: sub
+→ Output: Multiplication: mul
+→ Output: Division: div
+
+
+19. End the program.
+→ Return 0
+
+
 
 Conclusion: This Program will help in understaing of basic input and output, diffrent arithmetic operation in C++.
